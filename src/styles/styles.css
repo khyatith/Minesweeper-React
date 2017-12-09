@@ -1,0 +1,23 @@
+.Cell__cover--unopened{
+    height: 100%;
+    opacity: 0;
+}
+
+.Cell__cover--opened{
+	background-color: #ddd;
+    border: 1px solid #ddd;
+    height: 100%;
+  	transition: opacity 0.5s;
+  	opacity: 1;
+}
+
+.Cell{
+    border: 1px solid;
+    border-color: #fff #999 #999 #fff;
+    font-size: 20px;
+    width: 30px;
+    height: 28px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #ccc;
+}
